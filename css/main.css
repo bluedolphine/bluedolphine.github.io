@@ -1,0 +1,59 @@
+
+
+b, strong {
+    font-weight: 600;
+}
+
+samp {
+    display: none;
+}
+
+body { 
+    text-align: center; 
+} 
+
+h1 { 
+    font-family: Typo_CrayonM;
+    width: 200px
+    text-align: center;
+    margin: 0 auto; 
+}
+
+h2 { 
+    font-weight: 30;
+    font-size: 5mm;
+    width: 100px
+    text-align: center;
+    margin: 0 auto; 
+}
+
+p { text-align: center; width: 500px; margin: 0 auto; }
+
+
+
+@keyframes colorize {
+    0% {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+    100% {
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
+    }
+}
+
+.gallery{
+    margin: 10px 50px;
+
+}
+
+.gallery img{
+    transition: 1s;
+    padding: 15px;
+    width: 200px ;
+}
+
+.gallery img:hover {
+    filter:grayscale(100%);
+    transform: scale (3.1);
+} 
