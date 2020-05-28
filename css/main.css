@@ -13,14 +13,14 @@ body {
 } 
 
 h1 { 
-    font-family: Typo_CrayonM;
-    width: 200px
+    font-family: NanumBarunpen;
+    src: url font/NanumBarunpenR.ttf;}
     text-align: center;
     margin: 0 auto; 
 }
 
 h2 { 
-    font-weight: 30;
+    font-weight: 20;
     font-size: 5mm;
     width: 100px
     text-align: center;
